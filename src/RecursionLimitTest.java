@@ -54,14 +54,16 @@ public class RecursionLimitTest {
         //final int [] ARRAY_SIZES = {210000};
 
         // Array sizes increasing by intervals of 500,000.
-        // Results output in resources/recursionLimitsResults1.csv
+        // Results output in resources/recursionLimitsResults1.csv, resources/recursionLimitsResults2.csv, and
+        // resources/recursionLimitsResults3.csv
         final int [] ARRAY_SIZES = {
                 20000, 520000, 1020000, 1520000, 2020000, 2520000, 3020000, 3520000, 4020000, 4520000,
                 5020000, 5520000, 6020000, 6520000, 7020000, 7520000, 8020000, 8520000, 9020000, 9520000, 10020000
         };
 
         // Array sizes starting at 20,000 and 30,000, and each doubling thereafter.
-        // Results output in resources/recursionLimitsResults2.csv
+        // Results output in resources/recursionLimitsResults4.csv, resources/recursionLimitsResults5.csv, and
+        // resources/recursionLimitsResults6.csv
         //final int [] ARRAY_SIZES = {
         //      20000, 30000, 40000, 60000, 80000, 120000, 160000, 240000, 320000, 480000,
         //    640000, 960000, 1280000, 1920000, 2560000, 3840000, 5120000, 7680000, 10240000, 15360000, 20480000
@@ -71,8 +73,12 @@ public class RecursionLimitTest {
         final int UPPER_LIMIT = 300;
         final int LIMIT_STEP = 2;
         //final String PATH_FILE = "resources/recursionLimits.csv";
-        final String PATH_FILE = "resources/recursionLimitsResults1.csv";
-        //final String PATH_FILE = "resources/recursionLimitsResults2.csv";
+        //final String PATH_FILE = "resources/recursionLimitsResults1.csv";
+        final String PATH_FILE = "resources/recursionLimitsResults2.csv";
+        //final String PATH_FILE = "resources/recursionLimitsResults3.csv";
+        //final String PATH_FILE = "resources/recursionLimitsResults4.csv";
+        //final String PATH_FILE = "resources/recursionLimitsResults5.csv";
+        //final String PATH_FILE = "resources/recursionLimitsResults6.csv";
 
         //double runTime = 0;
         String[] result;
