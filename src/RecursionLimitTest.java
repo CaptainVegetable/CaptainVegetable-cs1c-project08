@@ -74,15 +74,13 @@ public class RecursionLimitTest {
 
         final int LOWER_LIMIT = 2;
         final int UPPER_LIMIT = 300;
-        //final int LOWER_LIMIT = 2;
-        //final int UPPER_LIMIT = 300;
         final int LIMIT_STEP = 2;
-        //final String PATH_FILE = "resources/recursionLimits.csv";
+        final String PATH_FILE = "resources/recursionLimits.csv";
         //final String PATH_FILE = "resources/recursionLimitsResults1.csv";
         //final String PATH_FILE = "resources/recursionLimitsResults2.csv";
         //final String PATH_FILE = "resources/recursionLimitsResults3.csv";
         //final String PATH_FILE = "resources/recursionLimitsResults4.csv";
-        final String PATH_FILE = "resources/recursionLimitsResults5.csv";
+        //final String PATH_FILE = "resources/recursionLimitsResults5.csv";
         //final String PATH_FILE = "resources/recursionLimitsResults6.csv";
         //final String PATH_FILE = "resources/test.csv";
 
