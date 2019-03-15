@@ -52,6 +52,7 @@ public class RecursionLimitTest {
         //final int [] ARRAY_SIZES = {200000, 400000, 800000, 1000000, 1600000};
 
         //final int [] ARRAY_SIZES = {210000};
+        //final int [] ARRAY_SIZES = {7020000};
 
         // Array sizes increasing by intervals of 500,000.
         // Results output in resources/recursionLimitsResults1.csv, resources/recursionLimitsResults2.csv, and
@@ -71,14 +72,17 @@ public class RecursionLimitTest {
 
         final int LOWER_LIMIT = 2;
         final int UPPER_LIMIT = 300;
+        //final int LOWER_LIMIT = 2;
+        //final int UPPER_LIMIT = 300;
         final int LIMIT_STEP = 2;
         //final String PATH_FILE = "resources/recursionLimits.csv";
         //final String PATH_FILE = "resources/recursionLimitsResults1.csv";
-        final String PATH_FILE = "resources/recursionLimitsResults2.csv";
-        //final String PATH_FILE = "resources/recursionLimitsResults3.csv";
+        //final String PATH_FILE = "resources/recursionLimitsResults2.csv";
+        final String PATH_FILE = "resources/recursionLimitsResults3.csv";
         //final String PATH_FILE = "resources/recursionLimitsResults4.csv";
         //final String PATH_FILE = "resources/recursionLimitsResults5.csv";
         //final String PATH_FILE = "resources/recursionLimitsResults6.csv";
+        //final String PATH_FILE = "resources/test.csv";
 
         //double runTime = 0;
         String[] result;
